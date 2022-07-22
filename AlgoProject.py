@@ -53,7 +53,7 @@ def main():
                 
                 while len(AskID) != 7:
                     try:
-                        ID = input("Please enter the customer's ID Number: ")
+                        ID = input("Please enter the customer's ID Number (Max length is 7): ")
                     except ValueError:
                         item_list_a = ""
                     Item.append(ID)
